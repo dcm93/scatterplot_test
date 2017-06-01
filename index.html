@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>title</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="js/Scatterplot.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3 offset-sm-1 offset-md-1 offset-lg-1 offset-xl-1" id="controls">
+                <div class="form-check" >
+                    <label class="form-check-label"><input class="form-check-input" type="checkbox" value="Economy" name="hello"> Economy</label>
+                </div>
+                <div class="form-check" >
+                    <label class="form-check-label"><input class="form-check-input" type="checkbox" value="Family"> Family</label>
+                </div>
+                 <div class="form-check" >
+                    <label class="form-check-label"><input class="form-check-input" type="checkbox" value="Trust"> Trust</label>
+                </div>
+                 <div class="form-check" >
+                    <label class="form-check-label"><input class="form-check-input" type="checkbox" value="Health"> Health</label>
+                </div>
+                
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 offset-lg-1 offset-md-1 offset-sm-1 offset-xl-1" id="vis">
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
